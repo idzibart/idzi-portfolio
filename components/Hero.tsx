@@ -33,7 +33,7 @@ const Hero = () => {
             words="Transforming Concepts into Seamless User Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-          <p className="mb-4 text-center text-sm text-yellow-100 md:text-lg md:tracking-wider lg:text-2xl">
+          <p className="mb-8 text-center text-sm text-yellow-100 md:text-lg md:tracking-wider lg:text-2xl">
             Hi! I&apos;m Bartłomiej, a Next.js Developer based in Poland.
           </p>
           <MagicButton

@@ -3,6 +3,7 @@ import Grid from "@/components/Grid";
 import { Navbar } from "@/components/ui/Navbar";
 import { navItems } from "@/data";
 import Projects from "@/components/Projects";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <Projects />
+        <Experience />
       </div>
     </main>
   );
