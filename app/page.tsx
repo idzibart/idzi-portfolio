@@ -5,6 +5,7 @@ import { navItems } from "@/data";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import ExperiencePath from "@/components/ExperiencePath";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
         <Navbar navItems={navItems} />
         <Hero />
         <Grid />
-        <Projects />
         <Experience />
+        <ExperiencePath />
+        <Projects />
         <Footer />
       </div>
     </main>

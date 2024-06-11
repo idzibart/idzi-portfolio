@@ -14,7 +14,7 @@ const Experience = () => {
         {workExperience.map((card) => (
           <BackgroundGradient
             key={card.id}
-            className="max-w-sm rounded-[22px] bg-white p-4 sm:p-10 dark:bg-zinc-900"
+            className="rounded-[22px] bg-white p-4 sm:p-10 dark:bg-zinc-900"
           >
             <div className="flex flex-col gap-2 p-3 py-6 md:p-5 lg:flex-row lg:items-center lg:p-10">
               <img
