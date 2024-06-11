@@ -5,7 +5,7 @@ import { projects } from "@/data";
 
 const Projects = () => {
   return (
-    <div className="py-20">
+    <section id="projects" className="py-20">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-yellow-200">recent projects</span>
@@ -64,7 +64,7 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <p className="text-yellow-200 flex text-sm md:text-xs lg:text-xl">
+                  <p className="flex text-sm text-yellow-200 md:text-xs lg:text-xl">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
@@ -74,7 +74,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
