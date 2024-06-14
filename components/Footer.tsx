@@ -4,20 +4,20 @@ import MagicButton from "./MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full pb-10 pt-20 overflow-hidden" id="contact">
+    <footer className="w-full overflow-hidden pb-10 pt-20" id="contact">
       {/* background grid */}
-      <div className="absolute bottom-0 left-0 w-screen h-full overflow-hidden">
+      <div className="absolute bottom-0 left-0 min-h-[36rem] w-screen overflow-hidden">
         <img
           src="/footer-grid.svg"
           alt="grid"
-          className="absolute -bottom-72 left-0 w-full h-auto opacity-50"
+          className="absolute -bottom-64 left-0 h-auto w-full opacity-35"
         />
       </div>
 
       <div className="relative flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-yellow-200">your</span> digital
-          presence to the <span className="text-yellow-200">next level?</span>
+          Ready to take <span className="text-blue-500">your</span> digital
+          presence to the <span className="text-blue-500">next level?</span>
         </h1>
         <p className="text-white-200 my-5 text-center md:mt-10">
           Reach out to me today and let&apos;s discuss how I can help you

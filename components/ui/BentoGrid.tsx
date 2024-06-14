@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
@@ -69,11 +69,11 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "group/bento shadow-input relative row-span-1 flex flex-col justify-between space-y-4 overflow-hidden rounded-3xl border border-white/[0.1] text-white transition duration-200 hover:shadow-xl dark:shadow-none ",
+        "group/bento shadow-input relative row-span-1 flex flex-col justify-between space-y-4 overflow-hidden rounded-3xl border border-white/[0.1] text-white transition duration-200 hover:shadow-xl dark:shadow-none",
         className,
       )}
       style={{
-        background: "rgb(30,27,24)",
+        background: "#010205",
         backgroundColor:
           "linear-gradient(90deg, rgba(30,27,24,1) 0%, rgba(128,131,51,1) 51%, rgba(241,255,0,1) 100%)",
       }}
@@ -129,20 +129,20 @@ export const BentoGridItem = ({
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
-                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
+                    className="rounded-lg bg-blue-700 px-3 py-2 text-center text-xs opacity-50 
                     lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="rounded-lg bg-[#10132E] px-3 py-4  text-center lg:px-3 lg:py-4"></span>
+                <span className="rounded-lg bg-blue-700 px-3 py-4  text-center lg:px-3 lg:py-4"></span>
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="rounded-lg bg-[#10132E] px-3 py-4  text-center lg:px-3 lg:py-4"></span>
+                <span className="rounded-lg bg-blue-700 px-3 py-4  text-center lg:px-3 lg:py-4"></span>
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
+                    className="rounded-lg bg-blue-700 px-3 py-2 text-center text-xs opacity-50 
                     lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}
