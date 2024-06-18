@@ -42,18 +42,18 @@ const Projects = () => {
                   <CardItem
                     translateZ={20}
                     as="div"
-                    className="rounded-xl bg-black px-4 text-xs font-bold text-white  dark:text-black"
+                    className="rounded-xl bg-black px-2 text-xs font-bold text-white  dark:text-black"
                   >
                     <div className="flex items-center">
                       {item.iconLists.map((icon, index) => (
                         <div
                           key={index}
-                          className="flex h-10 w-10 items-center justify-center rounded-full border border-white/[.2] bg-black lg:h-12 lg:w-12"
+                          className="flex h-12 w-12 items-center justify-center rounded-full border border-white/[.2] bg-black lg:h-14 lg:w-14"
                           style={{
                             transform: `translateX(-${5 * index + 2}px)`,
                           }}
                         >
-                          <img src={icon} alt="icon5" className="p-2" />
+                          <img src={icon} alt="icon5" className="p-1" />
                         </div>
                       ))}
                     </div>

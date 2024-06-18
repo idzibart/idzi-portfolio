@@ -109,7 +109,7 @@ export const projects = [
     title: "TopCut Barbershop website",
     des: "Modern barbershop website. Contains the most important links, prices, location",
     img: "/barber.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/wordpress.svg"],
     link: "https://topcutbarber.pl",
   },
   {
@@ -117,7 +117,13 @@ export const projects = [
     title: "SmartWeather",
     des: "Simple weather app that recognizes your location and shows the most important info about the weather",
     img: "/smart_weather.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/api.svg",
+      "/react-icons.svg",
+    ],
     link: "https://smartweather-idzi.netlify.app",
   },
   {
@@ -125,7 +131,7 @@ export const projects = [
     title: "Task Manager",
     des: "Task manager app that allows the creation list of things to do and tick done",
     img: "/task_manager.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/css-modules.svg"],
     link: "https://taskmanager-idzi.netlify.app",
   },
   {
@@ -133,7 +139,7 @@ export const projects = [
     title: "Watchbox",
     des: "App that is a movies database that allows you to rate movies or add to a watchlist or already watched list",
     img: "/watchbox.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/css-modules.svg", "/api.svg"],
     link: "https://watchbox-idzi.netlify.app/",
   },
 ];
