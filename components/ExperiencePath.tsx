@@ -18,7 +18,7 @@ const ExperiencePath = () => {
         {/* EXPERIENCE LIST ITEM */}
 
         <div className="flex h-48 justify-between">
-          <div className="w-2/5">
+          <div className="w-5/12 md:w-2/5">
             {/* LEFT */}
             <ExperienceCard
               title={workExp[0].role}
@@ -30,7 +30,7 @@ const ExperiencePath = () => {
             />
           </div>
           {/* CENTER */}
-          <div className="flex w-1/6 justify-center">
+          <div className="flex justify-center">
             {/* LINE */}
             <div className="relative h-full w-1 rounded bg-blue-50">
               {/* LINE CIRCLE */}
@@ -38,15 +38,15 @@ const ExperiencePath = () => {
             </div>
           </div>
           {/* RIGHT */}
-          <div className="w-2/5 "></div>
+          <div className="w-5/12 md:w-2/5 "></div>
         </div>
 
         {/* EXPERIENCE LIST ITEM */}
         <div className="flex h-48 justify-between">
           {/* LEFT */}
-          <div className="w-2/5 "></div>
+          <div className="w-5/12 md:w-2/5"></div>
           {/* CENTER */}
-          <div className="flex w-1/6 justify-center">
+          <div className="flex justify-center">
             {/* LINE */}
             <div className="relative h-full w-1 rounded bg-blue-50">
               {/* LINE CIRCLE */}
@@ -54,7 +54,7 @@ const ExperiencePath = () => {
             </div>
           </div>
           {/* RIGHT */}
-          <div className="w-2/5">
+          <div className="w-5/12 md:w-2/5">
             <ExperienceCard
               title={workExp[1].role}
               description={workExp[1].description}
@@ -68,7 +68,7 @@ const ExperiencePath = () => {
         {/* EXPERIENCE LIST ITEM */}
         <div className="flex h-48 justify-between">
           {/* LEFT */}
-          <div className="w-2/5 ">
+          <div className="w-5/12 md:w-2/5">
             <ExperienceCard
               title={workExp[2].role}
               description={workExp[2].description}
@@ -79,7 +79,7 @@ const ExperiencePath = () => {
             />
           </div>
           {/* CENTER */}
-          <div className="flex w-1/6 justify-center">
+          <div className="flex justify-center">
             {/* LINE */}
             <div className="relative h-full w-1 rounded bg-blue-50">
               {/* LINE CIRCLE */}
@@ -87,7 +87,7 @@ const ExperiencePath = () => {
             </div>
           </div>
           {/* RIGHT */}
-          <div className="w-2/5 "></div>
+          <div className="w-5/12 md:w-2/5"></div>
         </div>
       </div>
     </section>
