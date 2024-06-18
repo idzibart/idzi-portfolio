@@ -2,9 +2,9 @@ import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import { Navbar } from "@/components/ui/Navbar";
 import { navItems } from "@/data";
-import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import ExperiencePath from "@/components/ExperiencePath";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (

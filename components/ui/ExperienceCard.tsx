@@ -1,40 +1,56 @@
 import React from "react";
+import { Button } from "./MovingBorder";
+import Link from "next/link";
 const ExperienceCard = ({
   title,
   description,
   years,
   img,
   spareImg,
+  link,
 }: {
-  id?: number;
   title: string;
   description: string;
   years: string;
   img?: string;
   spareImg?: string;
+  link: string;
 }) => {
   return (
-    <div className="relative overflow-hidden rounded-[22px] border border-white/[0.1] bg-white transition duration-300 hover:scale-110 sm:p-1 dark:bg-[#010205]">
+    <Button
+      duration={Math.floor(Math.random() * 10000) + 20000}
+      className="relative overflow-hidden rounded-3xl sm:p-1"
+    >
       {/* JOB TITLE */}
-      <div className="rounded-b-lg rounded-s-lg  p-3 font-semibold">
+      <h2 className="p-3 text-lg font-semibold duration-200 hover:translate-x-2">
         {title}
-      </div>
+      </h2>
       {/* JOB DESC */}
-      <div className="p-3 text-sm italic">{description}</div>
+      <p className="p-3 text-base italic text-[#C1C2D3] duration-200 hover:translate-x-2">
+        {description}
+      </p>
       {/* JOB DATE */}
-      <div className="p-3 text-sm font-semibold text-blue-300">{years}</div>
+      <p className="p-3 text-sm font-semibold text-blue-300 duration-200 hover:translate-x-2">
+        {years}
+      </p>
       {/* JOB COMPANY */}
-      <div className="w-2/5 p-3 md:w-1/3">
-        <img src={img} alt={img} className="cursor-pointer object-fill" />
-      </div>
+      <Link target="_blank" href={link}>
+        <div className="w-2/5 p-3 duration-200 hover:translate-x-2 md:w-1/3">
+          <img
+            src={img}
+            alt={img}
+            className="cursor-pointer  object-fill  hover:fill-blue-700"
+          />
+        </div>
+      </Link>
       <div>
         <img
           src={spareImg}
           alt={spareImg}
-          className="absolute -right-20 bottom-0 w-full opacity-80 sm:-bottom-20 sm:-right-40"
+          className="absolute -right-20 bottom-0 w-full opacity-60 sm:-bottom-20 sm:-right-40"
         />
       </div>
-    </div>
+    </Button>
   );
 };
 

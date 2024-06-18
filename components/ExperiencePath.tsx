@@ -7,7 +7,7 @@ const ExperiencePath = () => {
   return (
     <section
       id="experience"
-      className="flex flex-col justify-center gap-16 py-20"
+      className="flex flex-col justify-center gap-16 py-32"
     >
       {/* EXPERIENCE TITLE */}
       <h1 className="heading">
@@ -26,6 +26,7 @@ const ExperiencePath = () => {
               years={workExp[0].years}
               img={workExp[0].img}
               spareImg={workExp[0].spareImg}
+              link={workExp[0].link}
             />
           </div>
           {/* CENTER */}
@@ -33,7 +34,7 @@ const ExperiencePath = () => {
             {/* LINE */}
             <div className="relative h-full w-1 rounded bg-blue-50">
               {/* LINE CIRCLE */}
-              <div className="absolute -left-2 h-5 w-5 rounded-full bg-[#00030B] ring-4 ring-blue-50"></div>
+              <div className="absolute -left-2 h-5 w-5 rounded-full bg-blue-500 ring-4 ring-blue-500"></div>
             </div>
           </div>
           {/* RIGHT */}
@@ -49,7 +50,7 @@ const ExperiencePath = () => {
             {/* LINE */}
             <div className="relative h-full w-1 rounded bg-blue-50">
               {/* LINE CIRCLE */}
-              <div className="absolute -left-2 h-5 w-5 rounded-full bg-[#00030B] ring-4 ring-blue-50"></div>
+              <div className="absolute -left-2 h-5 w-5 rounded-full bg-blue-500 ring-4 ring-blue-500"></div>
             </div>
           </div>
           {/* RIGHT */}
@@ -60,6 +61,7 @@ const ExperiencePath = () => {
               years={workExp[1].years}
               img={workExp[1].img}
               spareImg={workExp[1].spareImg}
+              link={workExp[1].link}
             />
           </div>
         </div>
@@ -73,6 +75,7 @@ const ExperiencePath = () => {
               years={workExp[2].years}
               img={workExp[2].img}
               spareImg={workExp[2].spareImg}
+              link={workExp[2].link}
             />
           </div>
           {/* CENTER */}
@@ -80,7 +83,7 @@ const ExperiencePath = () => {
             {/* LINE */}
             <div className="relative h-full w-1 rounded bg-blue-50">
               {/* LINE CIRCLE */}
-              <div className="absolute -left-2 h-5 w-5 rounded-full bg-[#00030B] ring-4 ring-blue-50"></div>
+              <div className="absolute -left-2 h-5 w-5 rounded-full bg-blue-500 ring-4 ring-blue-500"></div>
             </div>
           </div>
           {/* RIGHT */}
