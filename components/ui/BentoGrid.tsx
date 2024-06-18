@@ -126,13 +126,13 @@ export const BentoGridItem = ({
           </div>
           {id === 2 && <GridGlobe />}
           {id === 3 && (
-            <div className="absolute -right-3 flex w-fit gap-1 lg:-right-2 lg:gap-5">
+            <div className="absolute -right-3 flex w-fit gap-2 lg:-right-2 lg:gap-5">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-5 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
-                    className="rounded-lg bg-blue-700 px-3 py-2 text-center text-xs opacity-50 
+                    className="rounded-lg bg-blue-700 px-3 py-2 text-center text-xs opacity-100 
                     lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}
@@ -140,12 +140,12 @@ export const BentoGridItem = ({
                 ))}
                 <span className="rounded-lg bg-blue-700 px-3 py-4  text-center lg:px-3 lg:py-4"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-4 md:gap-3 lg:gap-8">
                 <span className="rounded-lg bg-blue-700 px-3 py-4  text-center lg:px-3 lg:py-4"></span>
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className="rounded-lg bg-blue-700 px-3 py-2 text-center text-xs opacity-50 
+                    className="rounded-lg bg-blue-700 px-3 py-2 text-center text-xs opacity-100 
                     lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}

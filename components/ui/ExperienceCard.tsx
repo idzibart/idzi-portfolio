@@ -22,15 +22,15 @@ const ExperienceCard = ({
       className="relative overflow-hidden rounded-3xl sm:p-1"
     >
       {/* JOB TITLE */}
-      <h2 className="p-3 text-lg font-semibold duration-200 hover:translate-x-2">
+      <h2 className="p-3 text-sm  font-semibold duration-200 hover:translate-x-2 md:text-lg">
         {title}
       </h2>
       {/* JOB DESC */}
-      <p className="p-3 text-base italic text-[#C1C2D3] duration-200 hover:translate-x-2">
+      <p className="p-3 text-xs italic text-[#C1C2D3] duration-200 hover:translate-x-2 md:text-base">
         {description}
       </p>
       {/* JOB DATE */}
-      <p className="p-3 text-sm font-semibold text-blue-300 duration-200 hover:translate-x-2">
+      <p className="p-3 text-[0.6rem] font-semibold text-blue-300 duration-200 hover:translate-x-2 md:text-sm">
         {years}
       </p>
       {/* JOB COMPANY */}
