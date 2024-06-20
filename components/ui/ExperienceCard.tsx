@@ -35,11 +35,11 @@ const ExperienceCard = ({
       </p>
       {/* JOB COMPANY */}
       <Link target="_blank" href={link}>
-        <div className="w-2/5 p-3 duration-200 hover:translate-x-2 md:w-1/3">
+        <div className="w-1/2 p-3 duration-200 hover:translate-x-2 md:w-1/3">
           <img
             src={img}
             alt={img}
-            className="cursor-pointer  object-fill  hover:fill-blue-700"
+            className="cursor-pointer object-fill hover:fill-blue-700"
           />
         </div>
       </Link>

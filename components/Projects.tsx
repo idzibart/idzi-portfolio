@@ -38,17 +38,17 @@ const Projects = () => {
                     alt="thumbnail"
                   />
                 </CardItem>
-                <div className="mt-20 flex items-center justify-between">
+                <div className="mt-12 flex items-center justify-between">
                   <CardItem
                     translateZ={20}
                     as="div"
-                    className="rounded-xl bg-black px-2 text-xs font-bold text-black"
+                    className="rounded-xl bg-black px-1 text-xs font-bold text-black"
                   >
                     <div className="flex items-center">
                       {item.iconLists.map((icon, index) => (
                         <div
                           key={index}
-                          className="flex h-12 w-12 items-center justify-center rounded-full border border-white/[.2] bg-black lg:h-14 lg:w-14"
+                          className="flex h-10 w-10 items-center justify-center rounded-full border border-white/[.2] bg-black lg:h-12 lg:w-12"
                           style={{
                             transform: `translateX(-${5 * index + 2}px)`,
                           }}
@@ -63,9 +63,9 @@ const Projects = () => {
                     as={Link}
                     href={item.link}
                     target="__blank"
-                    className="font-normaltext-blue-300 rounded-xl px-6 text-xs"
+                    className="font-normal text-blue-300 rounded-xl px-6 text-xs"
                   >
-                    Check live →
+                    Live demo →
                   </CardItem>
                 </div>
               </CardBody>
